@@ -926,6 +926,66 @@ th {
   padding: 0;
 }
 
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Black.woff2") format("woff2"), url("../fonts/Lato/Lato-Black.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-BlackItalic.woff2") format("woff2"), url("../fonts/Lato/Lato-BlackItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato/Lato-BoldItalic.woff") format("woff");
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato/Lato-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato/Lato-Italic.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Light.woff2") format("woff2"), url("../fonts/Lato/Lato-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato/Lato-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Thin.woff2") format("woff2"), url("../fonts/Lato/Lato-Thin.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-ThinItalic.woff2") format("woff2"), url("../fonts/Lato/Lato-ThinItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+}
 .row {
   --bs-gutter-x: 30px;
   --bs-gutter-y: 0;
@@ -2076,7 +2136,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   font-size: 0.875rem;
   line-height: 1.428571429;
   color: #161616;
@@ -2239,7 +2299,7 @@ tr, td {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.33;
   color: inherit;
@@ -2694,7 +2754,7 @@ ol.breadcrumb > li + li:before {
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: inherit;
   font-size: inherit;
@@ -3757,7 +3817,7 @@ input.btn, .c-input-tree_select > input[type=button], .c-drilldown input.c-drill
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: inherit;
   font-size: inherit;
@@ -6841,7 +6901,7 @@ a[aria-disabled].il-link.link-bulky:hover {
 }
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   font-weight: 500;
   line-height: 1.33;
   color: inherit;
@@ -7433,7 +7493,7 @@ code {
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: inherit;
   font-size: inherit;
@@ -7644,7 +7704,7 @@ input.btn, .c-drilldown input.c-drilldown__menulevel--trigger, input.il-link.lin
   cursor: pointer;
   user-select: none;
   touch-action: manipulation;
-  font-family: "Open Sans", Verdana, Arial, Helvetica, sans-serif;
+  font-family: "Lato", "Open Sans", Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   line-height: inherit;
   font-size: inherit;
